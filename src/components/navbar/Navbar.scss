@@ -1,0 +1,18 @@
+@import "../../sass/variables";
+.navbar {
+  background-color: $navBgColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    &:hover {
+      background-color: $bgColor;
+      color: $navBgColor;
+    }
+  }
+}
